@@ -1,0 +1,37 @@
+import React, { useEffect } from "react";
+
+const Discord = () => {
+  document.title = "Radiate | Discord";
+  useEffect(() => {
+    if (window.location.pathname === "/discord") {
+      setTimeout(() => {
+        window.location.href =
+          "#";
+      }, 800);
+    }
+  }, []);
+  return (
+    <>
+      <div
+        className="externalpage"
+        style={{
+          textAlign: "center",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          margin: "auto",
+          justifyItems: "center",
+          fontWeight: "600",
+          fontFamily: "sans-serif",
+          fontSize: "3rem",
+          height: "100vh",
+        }}
+      >
+        <p>Launching Discord 🚀</p>
+      </div>
+    </>
+  );
+};
+
+export default Discord;
