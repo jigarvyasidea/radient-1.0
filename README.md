@@ -1,4 +1,4 @@
-# Hack4Bengal Season 3
+# Radient  Season 1
 
 This is the development repo for Hack4Bengal season 3. The website is built Vite(React), Twitter Bootstrap. The backend (if any) will be built with NodeJS.
 
